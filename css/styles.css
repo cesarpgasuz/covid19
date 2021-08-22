@@ -110,3 +110,127 @@ span.jornada.proxima{
 	border-left: 2px solid #99ae08;
 	padding-left: 10px;
 }
+
+
+
+
+
+
+/* -----------------------------------------------*/
+/*------------------- RESPONSIVE -----------------*/
+/*------------------------------------------------*/
+
+
+
+
+@media screen and (max-width: 991px){
+	.tarjeta ul li.dosis h3{
+		white-space: nowrap;
+	}
+	
+	.tarjeta ul li.dosis h3 span.jornada{
+		font-size: 14px;
+		margin-left: 0px;
+	}
+	
+}
+
+
+
+@media screen and (max-width: 767px){
+	
+	.tarjeta{
+		
+		padding-left: 15px;
+	}
+	
+	.temp{
+		border-left: 4px solid #d2d2d2;
+	}
+	.process{
+		border-left: 4px solid yellow;
+	}
+	.prox{
+		border-left: 4px solid #74ff74;
+	}
+	.esp{
+		border-left: 4px solid red;
+	}
+	
+	
+	.tarjeta ul li.dosis h3{
+		white-space: normal;
+		margin-top: 15px;
+	}
+	.pegajoso{
+		position: sticky;
+		top: 0;
+	}
+	
+	.gris .pegajoso{
+		background: #fbfbfb;
+	}
+	.blanco .pegajoso{
+		background: #fff;
+	}
+	
+	
+	
+	
+}
+
+
+
+
+@media screen and (max-width: 575px){
+	.banner{
+		padding: 20px 0px;
+	}
+	.banner h1{
+		font-size: 24px;
+	}
+	.banner p{
+		font-size: 16px;
+	}
+	
+	h2.years{
+		font-size: 32px;
+		margin-bottom: 0px;
+		padding-top: 10px;
+	}
+	.tarjeta ul li.dosis h3{
+		font-size: 18px;
+	}
+	.tarjeta ul li.fecha h3, .tarjeta ul li.sedes h3 {
+    	font-size: 16px;
+	}
+	.tarjeta ul li.fecha ul li, .tarjeta ul li.sedes ul li{
+		font-size: 14px;
+	}
+}
+
+
+
+@media screen and (max-width: 384px){
+	.banner h1{
+		font-size: 18px;
+	}
+	h2.years {
+		font-size: 24px;
+	}
+	
+	.tarjeta ul li.dosis h3 {
+		font-size: 16px;
+	}
+	.tarjeta ul li.fecha h3, .tarjeta ul li.sedes h3 {
+		font-size: 14px;
+	}
+	.tarjeta ul li.fecha ul li, .tarjeta ul li.sedes ul li {
+		font-size: 12px;
+	}
+	.tarjeta ul li.dosis h3 span.jornada {
+    	font-size: 12px;
+	}
+}
+
+
