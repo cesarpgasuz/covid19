@@ -58,7 +58,7 @@ h2.years span{
 	padding: 0px 10px;
 	border-radius: 5px;
 	margin-left: 10px;
-	font-weight: 500;
+	font-weight: 400;
 }
 .tarjeta ul li.dosis h3{
 	font-size: 24px;
@@ -199,6 +199,9 @@ span.jornada.proxima{
 		margin-bottom: 0px;
 		padding-top: 10px;
 	}
+	h2.years span {
+	    font-size: 16px;
+	}
 	.tarjeta ul li.dosis h3{
 		font-size: 18px;
 	}
@@ -210,15 +213,20 @@ span.jornada.proxima{
 	}
 }
 
-
-
-@media screen and (max-width: 384px){
-	.banner h1{
-		font-size: 18px;
-	}
+@media screen and (max-width: 440px){
 	h2.years {
 		font-size: 24px;
 	}
+}
+
+
+
+
+@media screen and (max-width: 348px){
+	.banner h1{
+		font-size: 18px;
+	}
+	
 	
 	.tarjeta ul li.dosis h3 {
 		font-size: 16px;
@@ -234,4 +242,8 @@ span.jornada.proxima{
 	}
 }
 
-
+@media screen and (max-width: 320px){
+	h2.years span {
+	    font-size: 12px;
+	}
+}
