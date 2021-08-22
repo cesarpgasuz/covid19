@@ -4,7 +4,7 @@
 
 
 .banner{
-	background: #eff3f6;
+	background: #abdbff;
 	padding: 50px 0px;
 }
 .banner img{
@@ -13,101 +13,13 @@
 .banner h1{
 	font-weight: bold;
 }
-
-.etapas{
-	width: 100%;
-	height: auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-.etapas h2{
-	font-size: 32px;
-	font-weight: bold;
-}
-.etapas .tarjet{
-	margin-top: 60px;
-}
-.etapas .tarjet h3{
+.banner p{
 	font-size: 24px;
-	font-weight: bold;
+	border-left: 4px solid;
+	padding-left: 15px;
 }
-.etapas .tarjet h3 span{
-	font-size: 18px;
-	padding: 0px 10px;
-	border-radius: 5px;
-	margin-left: 10px;
-	font-weight: 500;
-}
-
-.etapas .tarjet .info{
-	display: flex;
-	justify-content: space-between;
-	border-bottom:  1px solid #ececec;
-	align-items: center;
-	padding: 15px 0px;
-}
-.etapas .tarjet .info .date{
-	display: flex;
-}
-.etapas .tarjet .info .date img{
-	width: 30px;
-}
-
-.etapas .tarjet .info .date h4, .etapas .tarjet .info .user h4{
-	font-size: 18px;
-	margin-bottom: 0px;
-	font-weight: bold;
-}
-
-span.confi{
-	font-size: 16px;
-	background: #c3ffc3;
-	color: #046204;
-	padding: 0px 5px;
-	font-weight: normal;
-	margin-left: 10px;
-}
-span.pendiente{
-	font-size: 16px;
-	background: #71e4ff;
-	color: #137991;
-	padding: 0px 5px;
-	font-weight: normal;
-	margin-left: 10px;
-}
-span.proceso{
-	font-size: 16px;
-	background: #f7ff00;
-	color: #444606;
-	padding: 0px 5px;
-	font-weight: normal;
-	margin-left: 10px;
-}
-span.terminada{
-	font-size: 16px;
-	color: #bfbfbf;
-	padding: 0px 5px;
-	font-weight: normal;
-	margin-left: 10px;
-}
-.etapas .tarjet .info .user h4 span{
-	font-weight: normal;
-}
-.etapas .tarjet .info .user h4.fin{
-	font-style: italic;
-	color: #bfbfbf;
-}
-.etapas .tarjet .info .user h4.proxima{
-	background: #c3ffc3;
-	color: #046204;
-}
-.etapas .tarjet .info .user h4.curso{
-	background: #f7ff00;
-	color: #444606;
-}
-.etapas .tarjet .info .user h4.pendiente{
-	background: #71e4ff;
-	color: #137991;
+.gris{
+	background: #fbfbfb;
 }
 
 .astra{
@@ -117,4 +29,84 @@ span.terminada{
 .sinovac{
 	background: #ffd17b;
 	color: #c85008;
+}
+
+
+
+
+
+.etapa{
+	width: 100%;
+	height: auto;
+	padding: 50px 0px;
+}
+
+.img-list{
+	width: 30px;
+}
+
+
+h2.years {
+	font-size: 52px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 15px;
+}
+h2.years span{
+	font-size: 18px;
+	padding: 0px 10px;
+	border-radius: 5px;
+	margin-left: 10px;
+	font-weight: 500;
+}
+.tarjeta ul li.dosis h3{
+	font-size: 24px;
+	font-weight: bold;
+}
+.tarjeta ul li.dosis h3 span.jornada{
+	font-size: 16px;
+	font-weight: normal;
+	margin-left: 10px;
+	font-style: italic;
+	padding: 0px 10px;
+}
+span.jornada.terminada{
+	color: #919191;
+}
+span.jornada.proceso{
+	background: yellow;
+	color: #000;
+}
+span.jornada.espera{
+	background: red;
+	color: #fff;
+}
+span.jornada.proxima{
+	background: #74ff74;
+}
+
+.tarjeta ul li.fecha h3, .tarjeta ul li.sedes h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.tarjeta ul li.fecha ul li{
+	color: #868686;
+	line-height: 25px;
+}
+.tarjeta ul li.fecha ul li span{
+	color: #000;
+	font-weight: 600;
+	margin-left: 15px;
+}
+.tarjeta ul li.sedes ul li{
+	line-height: 25px;
+	font-weight: 600;
+}
+
+.tarjeta ul li.sedes ul li span {
+	background: #eeff79;
+	border-left: 2px solid #99ae08;
+	padding-left: 10px;
 }
