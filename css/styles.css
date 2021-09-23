@@ -118,6 +118,48 @@ span.jornada.proxima{
 
 
 
+/* ------------------------------page reportes -----------------*/
+.reportes{
+	height: auto;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.reportes p{
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.reportes .content{
+	margin-bottom: 80px;
+}
+.reportes .content ul li{
+	margin-bottom: 12px;
+	font-size: 18px;
+}
+.reportes .content ul li.edad{
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.reportes .content ul li.dosis span{
+	font-weight: bold;
+	color: #000;
+}
+.reportes .content ul li.fuente-directa{
+	font-size: 14px;
+	color: #868686;
+}
+.reportes .content ul li.vacuna span{
+	padding: 0px 15px;
+	border-radius: 5px;
+		
+}
+li > img{
+	width: 25px;
+	margin-right: 10px;
+}
 
 
 /* -----------------------------------------------*/
@@ -135,6 +177,13 @@ span.jornada.proxima{
 	.tarjeta ul li.dosis h3 span.jornada{
 		font-size: 14px;
 		margin-left: 0px;
+	}
+	.reportes .content {
+		margin-bottom: 40px;
+	}
+	.reportes .content ul{
+		border-bottom: 1px solid #ececec;
+		padding-bottom: 20px;
 	}
 	
 }
@@ -215,6 +264,25 @@ span.jornada.proxima{
 	.tarjeta ul li.fecha ul li, .tarjeta ul li.sedes ul li{
 		font-size: 14px;
 	}
+	
+	
+	
+	/* --------estilos reportes------------ */
+	
+	
+	.reportes .content {
+		padding-left: 5%;
+	}
+	
+	.reportes .content ul li{
+		font-size: 16px;
+	}
+	
+	
+	
+	
+	
+	
 }
 
 @media screen and (max-width: 440px){
