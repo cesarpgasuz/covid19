@@ -349,7 +349,7 @@ li > img{
 		padding: 0px 20px;
 		border-radius: 5px;
 	}
-	nav ul li a:link i.active, nav ul li a: visited i.active{
+	nav ul li a:link i.active, nav ul li a:visited i.active{
 		color: #FE0062;
 	}
 	nav ul li a:active i{
