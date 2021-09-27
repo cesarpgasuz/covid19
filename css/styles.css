@@ -1,22 +1,23 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');*/
 
 :root{
 	--astra: #ae0258;
 }
+/*
 body{
 	font-family: 'Lato', sans-serif;
-}
+}*/
 nav{
 	padding: 15px 0px;
 	background: #63aee6;
 }
-nav span{
+nav span.ti{
 	color: #000;
 	font-weight: bold;
 	font-size: 18px;
 }
-nav span img{
+nav span.ti img{
 	width: 40px;
 }
 nav .content{
@@ -42,6 +43,12 @@ nav ul li a:visited{
 }
 nav ul li a:hover{
 	border-bottom: 2px solid #055b9b;
+}
+
+
+
+nav ul li a:link i{
+	display: none;
 }
 
 
@@ -308,7 +315,7 @@ li > img{
 	nav .content{
 		justify-content: center;
 	}
-	nav span{
+	nav span.ti{
 		background: #e4f3ff;
 		width: 100%;
 		position: fixed;
@@ -329,13 +336,29 @@ li > img{
 		justify-content: space-evenly;
 		height: 48px;
 		align-items: center;
+		z-index: 110;
 	}
 	nav ul li{
 		margin-left: 0px;
 	}
 	
+	nav ul li a:link i{
+		display: block;
+		font-size: 26px;
+		padding: 0px 20px;
+		border-radius: 5px;
+	}
+	nav ul li a:link i.active{
+		color: #FE0062;
+	}
+	nav ul li a:active i{
+		background: #d8eefd;
+	}
+	nav ul li a:link span{
+		display: none;
+	}	
 	
-	
+
 	
 	
 	
