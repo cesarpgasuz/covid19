@@ -111,7 +111,9 @@ nav ul li a:link i{
 	color: #FE0062;
 	border-bottom: 2px solid #FE0062;
 }
-
+.home img.vac{
+	aspect-ratio: 1/1;
+}
 
 
 
@@ -121,6 +123,7 @@ nav ul li a:link i{
 }
 .banner img{
 	width: 100px;
+	aspect-ratio: 1/1;
 }
 .banner h1{
 	font-weight: bold;
