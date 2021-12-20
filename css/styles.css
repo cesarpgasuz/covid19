@@ -36,6 +36,7 @@ nav span.ti{
 nav span.ti img{
 	width: 40px;
 	aspect-ratio: 1/1;
+	margin-right: 10px;
 }
 nav .content{
 	display: flex;
